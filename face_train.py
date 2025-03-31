@@ -7,7 +7,7 @@ if haar_cascade.empty():
     print("Error loading haar_face.xml")
     exit()
 
-people = ["me", "harshit", "ansh"]
+people = ["person1", "person2", "person3"]
 DIR = r"C:\Pictures\Samsung Flow\train"
 IMG_SIZE = (100, 100)
 
