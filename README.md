@@ -36,55 +36,6 @@ simpsons-recognition/
    simpsons.ipynb
 ```
 
-## 🏆 Face Recognition
-### 1. Prepare the Dataset
-Create a dataset folder with labeled images:
-```
-train/
-    person1/
-        img1.jpg
-        img2.jpg
-    person2/
-        img1.jpg
-        img2.jpg
-    person3/
-        img1.jpg
-        img2.jpg
-```
-
-### 2. Train the Model
-```bash
-python face-recognition/face_train.py
-```
-
-### 3. Test on an Image
-```bash
-python face-recognition/face_test.py
-```
-
-### 4. Live Face Recognition
-```bash
-python face-recognition/face_live.py
-```
-
-## 🎭 Simpsons Character Recognition
-### 1. Dataset
-I have already added dataset api link from kaggel in 1st cell, you just need to run it and enjoyyyy...
-
-### 2. Train the Model
-Run the Jupyter Notebook:
-```bash
-jupyter notebook simpsons-recognition/simpsons_train.ipynb
-```
-
-### 3. Test on an Image
-Run the appropriate cell in `simpsons_train.ipynb` to test on a static image from dataset.
-
-## 🔧 Future Improvements
-- Improve model.
-- Improve dataset preprocessing for better accuracy.
-- Implement mobile support for real-time recognition.
-
 ## 👨‍💻 Author
 Sourabh
 
