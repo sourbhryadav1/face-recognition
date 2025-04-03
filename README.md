@@ -1,4 +1,4 @@
-# Face & Simpsons Character Recognition using OpenCV and DL
+# Self OpenCV projects
 
 ## Overview
 This repository contains three projects using OpenCV:
