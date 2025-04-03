@@ -1,16 +1,12 @@
 # Face & Simpsons Character Recognition using OpenCV and DL
 
 ## Overview
-This repository contains two projects using OpenCV for face recognition:
+This repository contains three projects using OpenCV:
 
 - **Face Recognition**: Uses the LBPH (Local Binary Patterns Histogram) algorithm to detect and recognize human faces from images, videos, and live camera feeds.
 - **Simpsons Character Recognition**: Detects and recognizes characters from *The Simpsons* using DL and a Kaggle dataset.
-
-## Features
-- Train models on labeled images.
-- Detect and recognize faces in static images.
-- Perform real-time recognition using a webcam.
-
+- **Virtual Paint**: detects specific colors from a live camera feed and tracks their movement to create virtual drawings on the screen—just like painting in the air! ✨
+  
 ## Requirements
 - Python 3.x
 - OpenCV
@@ -18,7 +14,7 @@ This repository contains two projects using OpenCV for face recognition:
 
 ## Install Dependencies
 ```bash
-pip install opencv-python opencv-contrib-python numpy kaggle
+pip install opencv-python opencv-contrib-python numpy
 ```
 
 ## 📂 Project Structure
@@ -28,12 +24,13 @@ face-recognition/
     face_test.py
     face_live.py
     haar_face.xml
-    face_trained.yml
-    features.npy
-    labels.npy
 
 simpsons-recognition/
    simpsons.ipynb
+
+virtual-paint/
+    color-picker.py
+    main.py
 ```
 
 ## 👨‍💻 Author
