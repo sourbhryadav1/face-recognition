@@ -64,6 +64,11 @@ This script helps you determine the lower and upper HSV bounds for accurate colo
 
 ---
 
+## Example Output
+![output](https://github.com/sourbhryadav1/openCV-projects/blob/main/virtual_paint/results/Screenshot%202025-04-04%20121742.png)
+
+---
+
 ## 📝 To-Do & Future Improvements  
 ✅ Improve gesture recognition  
 ✅ Add multiple color brushes  
